@@ -4,19 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <!-- CSSファイルの読み込み -->
   <script src="https://kit.fontawesome.com/ea1e081b2f.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="develop_skillup.css">
-  <title>開発スキルアップ</title>
+  <link rel="stylesheet" href="mysite.css">
+  <title>自己紹介ページ</title>
 </head>
 <body>
 
 
   <header>
     <div class="upper clearfix">
-      <a href="#">
-        <img  class="mysite" src="img/logo.png">
-      </a>
       <div class="hamburger-box">
         <span class="hamburger-content1"></span>
         <span class="hamburger-content2"></span>
@@ -25,16 +21,16 @@
       <nav class="clearfix">
         <ul class="header-box clearfix">
           <li class="header-list">
-            <a class="a" href="#">Portfolio</a>
+            <a class="a" href="#portfolio">Portfolio</a>
           </li>
           <li class="header-list">
-            <a class="a" href="#">Feature</a>
+            <a class="a" href="#skills">skills</a>
           </li>
           <li class="header-list">
-            <a class="a" href="#">Profile</a>
+            <a class="a" href="#profile">Profile</a>
           </li>
           <li class="header-list">
-            <a class="a" href="#">Contact</a>
+            <a class="a" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -45,20 +41,20 @@
   <main>
     <div class="main-visual">
       <section class="main-visual-box">
-        <h1 class="main-visual-logo">Lorem Ipsum</h1>
-        <p class="main-visual-sublogo">simply dummy text of the printing</p>
+        <h1 class="main-visual-logo">Kazuki Minamigawa</h1>
+        <p class="main-visual-sublogo">--PORTFOLIO SITE--</p>
       </section>
     </div>
 
 
-    <div class="portfolio">
+    <div id="portfolio" class="portfolio">
       <section class="portfolio-box">
         <h1 class="portfolio-title">Portfolio</h1>
         <div class="portfolio-line"></div>
         <p class="portfolio-text">
-          It is a long established fact that a reader will be distrated by the readable<br>
-          content of a page when looking at its layout<br>
-          The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+          ここに文章が入りますここに文章が入りますここに文章が入りますここに文章が入ります<br>
+          ここに文章が入りますここに文章が入りますここに文章が入りますここに文章が入ります<br>
+          ここに文章が入りますここに文章が入りますここに文章が入りますここに文章が入ります
         </p>
         <div class="p-bigbox clearfix">
           <div class="p-box1"></div>
@@ -72,116 +68,85 @@
     </div>
 
 
-    <div class="feature">
+    <div id="skills" class="feature">
+      <section class="feature-box">
+        <h1 class="feature-title">Skills</h1>
+        <div class="feature-line"></div>
+      </section>
       <div class="feature-content clearfix">
-        <section class="feature-box">
-          <h1 class="feature-title">Feature</h1>
-          <div class="feature-line"></div>
-          <p class="feature-text">
-            It is a long established fact that a reader will be distracted by the readable<br>
-            content of a page when looking at its layout.<br>
-            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-          </p>
-        </section>
         <div class="strengh1-box">
           <div class="s1-icon">
-            <i class="fa fa-code"></i>
+            <i class="fab fa-html5"></i>
           </div>
-          <h1 class="s1-title">Strengh1</h1>
+          <h1 class="s1-title">HTML5/CSS3</h1>
           <p class="s1-text">
-            Country to popular belief, Lorem Ipsum<br>
-            is not simply ramdom text.It has roots<br>
-            in a piece of ciassical Latin literature<br>
-            from 45 BC, making it over 2000 years<br>
-            old. Richerd McClintook a Latin<br>
-            professor at Hampden-Sydney College<br>
-            in Vignia, looked up one of the more<br>
-            obscure Latin words, consectetur
+            経験1年以上。<br>
+            レスポンシブ対応からBootstrapなどのフレームワークを用いた実装まで扱っております。<br>
           </p>
         </div>
         <div class="strengh2-box">
           <div class="s2-icon">
-            <i class="fa fa-desktop"></i>
+            <i class="fas fa-gem"></i>
           </div>
-          <h1 class="s2-title">Strengh2</h1>
+          <h1 class="s2-title">Ruby on Rails</h1>
           <p class="s2-text">
-            Country to popular belief, Lorem Ipsum<br>
-            is not simply ramdom text.It has roots<br>
-            in a piece of ciassical Latin literature<br>
-            from 45 BC, making it over 2000 years<br>
-            old. Richerd McClintook a Latin<br>
-            professor at Hampden-Sydney College<br>
-            in Vignia, looked up one of the more<br>
-            obscure Latin words, consectetur
+            経験1年以上。<br>
+            ECサイトの制作等のようなWebアプリケーション開発行います。
           </p>
         </div>
         <div class="strengh3-box">
           <div class="s3-icon">
-            <i class="fas fa-cogs"></i>
+            <i class="fas fa-ad"></i>
           </div>
-          <h1 class="s3-title">Strengh3</h1>
+          <h1 class="s3-title">Adobe XD</h1>
           <p class="s3-text">
-            Country to popular belief, Lorem Ipsum<br>
-            is not simply ramdom text.It has roots<br>
-            in a piece of ciassical Latin literature<br>
-            from 45 BC, making it over 2000 years<br>
-            old. Richerd McClintook a Latin<br>
-            professor at Hampden-Sydney College<br>
-            in Vignia, looked up one of the more<br>
-            obscure Latin words, consectetur
+            XDを使ったデザインカンプの作成、デザインカンプからのコーディングが可能です。<br>
+            バナーやランディングページ、サイト全体のデザインからプロトタイプの作成まで一貫して行います。
           </p>
         </div>
       </div>
     </div>
 
 
-    <div class="profile">
+    <div id="profile" class="profile">
       <div class="profile-content clearfix">
         <section class="profile-box">
           <h1 class="profile-title">Profile</h1>
           <div class="profile-line"></div>
-          <p class="profile-text">
-            It is a long established fact that a reader will be distracted by the readable<br>
-            content of a page when looking at its layout.<br>
-            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-          </p>
         </section>
         <div class="profile-left">
           <div class="profile-img"></div>
         </div>
         <section class="profile-right">
-          <h1 class="self">MyName</h1>
+          <h1 class="self">Introduction</h1>
           <p class="myname-text">
-            Country to popular belief, Lorem Ipsum is not simply ramdom<br>
-            text.It has roots in a piece of ciassical Latin literature from 45<br>
-            BC, making it over 2000 years old. Richerd McClintook a Latin<br>
-            professor at Hampden-Sydney College in Vignia, looked up<br>
-            one of the more obscure Latin words, consectetur
-          </p>
-          <h1 class="self">MySkills</h1>
+            氏名：南川和紀<br>
+            大学：関西学院大学経済学部<br>
+            使用言語：HTML5/CSS3/Ruby on Rails/JQuery<br>
+            デザインツール：Adobe XD/Figma/PhotoShop<br>
+          <h1 class="self">Experiences</h1>
           <p class="myskills-text">
-            HTML/CSS/JavaScript/JQuery/PhotoShop
+            転職型プログラミングスクールのメンターとして1年間勤務しており、<br>
+            コーディングからDB設計まで扱った経験があります。<br>
+            デザインからコーディングまで一貫して開発することができます。
           </p>
         </section>
       </div>
     </div>
 
 
-    <div class="contact">
+    <div id="contact" class="contact">
       <div class="contact-center clearfix">
         <div class="contact-box">
           <h1 class="contact-title">Contact</h1>
           <div class="contact-line"></div>
           <p class="contact-text">
-            It is a long established fact that a reader will be distracted by the readable<br>
-            content of a page when looking at its layout.<br>
-            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-          </p>
+            お仕事の依頼等は下記メールアドレスからお願い致します。
         </div>
         <div class="contact-left">
           <div class="left-box">
             <h1 class="contact-mail">Mail</h1>
-            <a class="contact-adless" href="#">xxx@xxx.com</a>
+            <a class="contact-adless" href="mailto:mnmkzk820@gmail.com">mnmkzk820@gmail.com</a>
             <h1 class="contact-tel">Tel</h1>
             <a class="contact-number" href="#">000-0000-0000</a>
           </div>
@@ -202,7 +167,7 @@
 
 
   <footer>
-    <h1 class="footer-logo">&copy;2017 Webcamp</h1>
+    <h1 class="footer-logo">Kazuki Minnamigawa</h1>
   </footer>
 
 

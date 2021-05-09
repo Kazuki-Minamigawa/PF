@@ -21,10 +21,6 @@ header {
   width: 1024px;
   margin: 0 auto;
 }
-.mysite{
-  height: 70px;
-  float: left;
-}
 .header-box{
   height: 70px;
   float: right;
@@ -36,6 +32,7 @@ header {
   line-height: 70px;
   font-size: 16px;
   padding: 0 30px;
+  text-align: center;
 }
 .a{
   color: #FAFAFA;
@@ -168,10 +165,6 @@ header {
   padding-top: 90px;
   margin-bottom: 90px;
 }
-.feature-content{
-  width: 980px;
-  margin: 0 auto;
-}
 .feature-box{
   margin: 0 auto;
 }
@@ -184,7 +177,8 @@ header {
   background-color: #EC715F;
   height: 3px;
   width: 70px;
-  margin-top: 8px;
+  margin-bottom: 30px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -194,11 +188,15 @@ header {
   font-size: 16px;
   color: #000000;
 }
+.feature-content{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
 .strengh1-box{
   width: 320px;
-  margin-right: 10px;
-  margin: 0 auto;
-  float: left;
+  margin: 0 20px;
 }
 .s1-icon{
   font-size:60px;
@@ -216,10 +214,7 @@ header {
 }
 .strengh2-box{
   width: 320px;
-  margin-right: 10px;
-  margin: 0 auto;
-  float: left;
-  position: relative;
+  margin: 0 20px;
 }
 .s2-icon{
   font-size:60px;
@@ -237,9 +232,7 @@ header {
 }
 .strengh3-box{
   width: 320px;
-  margin: 0 auto;
-  float: left;
-  position: relative;
+  margin: 0 20px;
 }
 .s3-icon{
   font-size:60px;
@@ -282,18 +275,13 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.profile-text{
-  text-align: center;
-  padding: 30px 0;
-  font-size: 16px;
-  color: #000000;
-}
 .profile-left{
+  padding-top: 30px;
   width: 512px;
   float: left;
 }
 .profile-img{
-  background-image: url("img/my-icon.jpg");
+  background-image: url("img/no_image.jpg");
   background-size: cover;
   background-position: center;
   height: 250px;
@@ -306,6 +294,7 @@ header {
   float: left;
 }
 .self{
+  padding-top: 30px;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -533,20 +522,21 @@ footer{
   /*--------------------------------#feature----------------------------------*/
   .feature-content{
     width: 90%;
+    flex-direction: column;
   }
   .strengh1-box{
-    display: block;
-    float: none;
+    margin: auto;
     margin-bottom: 10px;
+    text-align: center;
   }
   .strengh2-box{
-    display: block;
-    float: none;
+    margin: auto;
     margin-bottom: 10px;
+    text-align: center;
   }
   .strengh3-box{
-    display: block;
-    float: none;
+    margin: auto;
+    text-align: center;
   }
 
 
