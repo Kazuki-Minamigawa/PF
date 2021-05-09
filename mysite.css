@@ -1,0 +1,624 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+/*-----------------------------------header-----------------------------------*/
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #EC715F;
+}
+.upper{
+  width: 1024px;
+  margin: 0 auto;
+}
+.mysite{
+  height: 70px;
+  float: left;
+}
+.header-box{
+  height: 70px;
+  float: right;
+  list-style: none;
+}
+.header-list{
+  width: 120px;
+  float: left;
+  line-height: 70px;
+  font-size: 16px;
+  padding: 0 30px;
+}
+.a{
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+
+
+
+/*-------------------------------------#main-visual--------------------------*/
+.main-visual{
+  background-image: url("img/mv.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 650px;
+}
+.main-visual-box{
+  padding: 200px 0;
+}
+.main-visual-logo{
+  font-size: 64px;
+  color: #FAFAFA;
+  text-align: center;
+}
+.main-visual-sublogo{
+  font-size: 20px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+/*-------------------------------------#portfolio-----------------------------*/
+.portfolio{
+  background-color: #ECEFF1;
+  width: 100%;
+  padding-top: 90px;
+}
+.portfolio-box{
+  width: 920px;
+  margin: 0 auto;
+}
+.portfolio-title{
+  font-size: 32px;
+  text-align: center;
+  color: #000000;
+}
+.portfolio-line{
+  background-color: #EC715F;
+  height: 3px;
+  width: 70px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-text{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+.p-bigbox{
+  width: 920px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+.p-box1{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-image: url("img/sketch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.p-box2{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-image: url("img/websuku.png");
+  background-size: cover;
+  background-position: center;
+}
+.p-box3{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+  background-image: url("img/write.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.p-box4{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  background-image: url("img/webcamp.png");
+  background-size: cover;
+  background-position: center;
+}
+.p-box5{
+  float: left;
+  width: 300px;
+  height: 250px;
+  margin-right: 10px;
+  background-image: url("img/talk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.p-box6{
+  float: left;
+  width: 300px;
+  height: 250px;
+  background-image: url("img/webcamp-mother.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+/*--------------------------------#feature------------------------------------*/
+.feature{
+  width: 100%;
+  padding-top: 90px;
+  margin-bottom: 90px;
+}
+.feature-content{
+  width: 980px;
+  margin: 0 auto;
+}
+.feature-box{
+  margin: 0 auto;
+}
+.feature-title{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.feature-line{
+  background-color: #EC715F;
+  height: 3px;
+  width: 70px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.feature-text{
+  text-align: center;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.strengh1-box{
+  width: 320px;
+  margin-right: 10px;
+  margin: 0 auto;
+  float: left;
+}
+.s1-icon{
+  font-size:60px;
+  text-align: center;
+}
+.s1-title{
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+  text-align: center;
+}
+.s1-text{
+  font-size: 16px;
+  color: #000000;
+}
+.strengh2-box{
+  width: 320px;
+  margin-right: 10px;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+}
+.s2-icon{
+  font-size:60px;
+  text-align: center;
+}
+.s2-title{
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+  text-align: center;
+}
+.s2-text{
+  font-size: 16px;
+  color: #000000;
+}
+.strengh3-box{
+  width: 320px;
+  margin: 0 auto;
+  float: left;
+  position: relative;
+}
+.s3-icon{
+  font-size:60px;
+  text-align: center;
+}
+.s3-title{
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+  text-align: center;
+}
+.s3-text{
+  font-size: 16px;
+  color: #000000;
+}
+
+
+
+
+/*----------------------------------#profile----------------------------------*/
+.profile{
+  background-color: #ECEFF1;
+  width: 100%;
+  padding: 90px 0;
+}
+.profile-content{
+  width: 1024px;
+  margin: 0 auto;
+}
+.profile-title{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.profile-line{
+  background-color: #EC715F;
+  height: 3px;
+  width: 70px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-text{
+  text-align: center;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.profile-left{
+  width: 512px;
+  float: left;
+}
+.profile-img{
+  background-image: url("img/my-icon.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.profile-right{
+  width: 512px;
+  float: left;
+}
+.self{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.myname-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.myskills-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+
+
+
+/*----------------------------------#contact----------------------------------*/
+.contact{
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 90px;
+  margin-bottom: 90px;
+}
+.contact-center{
+  margin: 0 auto;
+}
+.contact-title{
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+}
+.contact-line{
+  background-color: #EC715F;
+  height: 3px;
+  width: 70px;
+  margin-top: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-text{
+  text-align: center;
+  padding: 30px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.contact-left{
+  width: 400px;
+  float: left;
+}
+.left-box{
+  width: 130px;
+  margin: 0 auto;
+}
+.contact-mail{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.contact-adless{
+  color: #000000;
+}
+.contact-tel{
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+.contact-number{
+  text-align: left;
+  margin-bottom: 20px;
+  color: #000000;
+}
+.contact-right{
+  width: 400px;
+  float: left;
+}
+.right-box{
+  width: 170px;
+  margin: 0 auto;
+}
+.contact-sns{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.contact-icon{
+  font-size: 50px;
+}
+.fa-facebook-f{
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+.fa-twitter{
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+.fa-instagram{
+  display: inline-block;
+  float: left;
+}
+
+
+
+
+/*-----------------------------------#footer----------------------------------*/
+footer{
+  height: 60px;
+  width: 100%;
+  background-color: #EC715F;
+}
+.footer-logo{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
+
+
+
+
+
+/*----------------------------------responsibe-------------------------------*/
+@media screen and (max-width:768px) {
+  header{
+    height: 50px;
+    width: 100%;
+  }
+  .upper{
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .mysite{
+    height: 50px;
+    float: none;
+  }
+  .hamburger-box{
+    border: solid 1px #FAFAFA;
+    width: 40px;
+    height: 40px;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: right;
+  }
+  .hamburger-content1{
+    margin-top: 10px;
+    background-color: #FAFAFA;
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hamburger-content2{
+    background-color: #FAFAFA;
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+  }
+  .hamburger-content3{
+    margin-bottom: 10px;
+    background-color: #FAFAFA;
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-list{
+    display: none;
+    float: none;
+  }
+
+
+
+
+  /*-----------------------------#main-visual----------------------------------*/
+  .main-visual{
+    background-image: url("img/code.png");
+    width: 100%;
+  }
+  .main-visual-box{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-visual-logo{
+    font-size: 40px;
+    margin: 0 auto;
+  }
+  .main-visual-sublogo{
+    font-size: 18px;
+    margin: 0 auto;
+  }
+
+
+
+
+  /*-------------------------------#portfolio---------------------------------*/
+  .portfolio-box{
+    width: 90%;
+  }
+  .p-bigbox{
+    width: 300px;
+    display: block;
+    float: none;
+  }
+  .p-box1{
+    display: none;
+  }
+  .p-box3{
+    display: none;
+  }
+  .p-box5{
+    display: none;
+  }
+  .p-box4{
+    margin-bottom: 10px;
+  }
+
+
+
+
+  /*--------------------------------#feature----------------------------------*/
+  .feature-content{
+    width: 90%;
+  }
+  .strengh1-box{
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .strengh2-box{
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .strengh3-box{
+    display: block;
+    float: none;
+  }
+
+
+
+
+  /*----------------------------------#profile--------------------------------*/
+  .profile-content{
+    width: 90%;
+  }
+  .profile-left{
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .profile-right{
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .self{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .myname-text{
+    text-align: center;
+  }
+  .myskills-text{
+    text-align: center;
+  }
+
+
+
+
+  /*------------------------------#contact------------------------------------*/
+  .contact{
+    width: 90%;
+  }
+  .contact-center{
+    text-align: center;
+  }
+  .contact-left{
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .contact-right{
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+  .contact-mail{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .contact-adless{
+    text-align: center;
+  }
+  .contact-tel{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-sns{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .contact-icon{
+    margin: 0 auto;
+  }
+  .fa-facebook-f{
+    margin-right: 8px;
+  }
+  .fa-twitter{
+    margin-right: 8px;
+  }
+}
